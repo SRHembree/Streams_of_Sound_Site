@@ -32,9 +32,14 @@ html {
     position:relative;
     border-radius:4px;
 }
-.nav-link {
-    
+.navbar #navbarNav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
 }
+.navbar #navbarNav .nav-link:hover{
+    color: white;
+}
+
 
 /* <!--Footer--> */
 
