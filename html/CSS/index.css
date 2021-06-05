@@ -39,7 +39,9 @@ html {
 .navbar #navbarNav .nav-link:hover{
     color: white;
 }
-
+.fa-ellipsis-v {
+    color: black;
+}
 
 /* <!--Footer--> */
 
