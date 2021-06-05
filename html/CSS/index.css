@@ -1,5 +1,21 @@
-/* <!--Navigation--> */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; 
+}
 
+/* <!--Navigation--> */
+#NavLogo {
+    width: 100px;
+    height: 100px;
+}
+#topoftheworld {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #64CBCD;
+}
 
 /* <!--Footer--> */
 
