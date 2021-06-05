@@ -10,11 +10,30 @@ html {
 #NavLogo {
     width: 100px;
     height: 100px;
+    display: flex;
 }
 #topoftheworld {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #64CBCD;
+}
+#navbarNav {
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 5%;
+}
+.nav-item {
+    margin-top: 1.5rem;
+    padding:15px;
+    border:2px solid #4FA3A5;
+    background-color: #4FA3A5;
+    width:60px;
+    height:45px;
+    position:relative;
+    border-radius:4px;
+}
+.nav-link {
+    
 }
 
 /* <!--Footer--> */
