@@ -46,24 +46,57 @@
 <body>
   <!-- Nav HTML -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="topoftheworld">
-    <a class="navbar-brand" href="https://srhembree.github.io/UX_UI_HW_21/">
-      <img src="images/hobbyLogo.png" class="img-fluid" alt="Travel Logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <a class="navbar-brand d-lg-none" href="#"></a>
+    <div class="onlyOnMobile">
+        <a class="btn btn-primary btn-lg btn-floating" id="mobileFacebook" href="#!" role="button">
+            <i class="fab fa-facebook-f fa-2x"></i>
+        </a>
+        <a class="btn btn-primary btn-lg btn-floating" id="mobileTwitter" href="#!" role="button">
+            <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="#"><img src="./images/SoSFinal.png" id="mobileNavLogo">
+        </a>
+        <a class="btn btn-primary btn-lg btn-floating" id="mobileSearch" href="#!" role="button">
+            <i class="fas fa-search fa-2x"></i>
+        </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-ellipsis-v"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="https://srhembree.github.io/UX_UI_HW_21_Get_Started/">Get Started</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://srhembree.github.io/UX_UI_HW_21_TipsTricks/">Tips & Tricks</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://srhembree.github.io/UX_UI_HW_21_Related_Hobbies/">Related Hobbies</a></li>
-      </ul>
-      <div>
-  </nav>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="btn btn-primary btn-lg btn-floating" id="Envelope" href="#!" role="button">
+            <i class="fas fa-envelope fa-lg" id="socialMedia1"></i>
+        </a>
+        <a class="btn btn-primary btn-lg btn-floating" id="Facebook" href="#!" role="button">
+            <i class="fab fa-facebook-f fa-lg" id="socialMedia2"></i>
+        </a>
+        <a class="btn btn-primary btn-lg btn-floating" id="Twitter" href="#!" role="button">
+            <i class="fab fa-twitter fa-lg" id="socialMedia3"></i>
+        </a>
+        <ul class="navbar-nav mx-auto p-3">
+            <li class="nav-item mt-4">
+                <button class="nav-link NAVBUTTON btn" id ="About" href="#">About</button>
+            </li>
+            <li class="nav-item mt-4">
+                <button class="nav-link NAVBUTTON btn" id="Shop" href="#">Shop</button>
+            </li>
+            <a href="#"><img src="./images/SoSFinal.png" id="NavLogo"></a>
+            <li class="nav-item mt-4">
+                <button class="nav-link NAVBUTTON btn" id="Join" href="#">Join</button>
+            </li>
+            <li class="nav-item mt-4">
+                <button class="nav-link btn" id="mobileFirstLink" href="#">Contact</button>
+            </li>
+            <li class="nav-item mt-4">
+                <button class="nav-link NAVBUTTON btn" id="Donate" href="#">Donate</button>
+            </li>
+            <li class="nav-item p-3" id="searchIcon">
+                <i class="fas fa-search fa-lg"></i>
+            </li>
+        </ul>
+        <div>
+    </nav>
   <!-- Title Section -->
   <header class="masthead">
     <div class="container">
