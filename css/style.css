@@ -146,6 +146,9 @@ html {
     }
 }
 /* Desktop Version of Nav */
+body {
+    padding-top: 200px;
+}
 nav {
     position: absolute;
 }
@@ -279,6 +282,6 @@ button {
 
 /* <!--Donate Page--> */
 
-.padding {
+.donationPadding {
  padding: 2rem;
 }
