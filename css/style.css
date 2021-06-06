@@ -5,44 +5,266 @@
 html {
     scroll-behavior: smooth; 
 }
-
-/* <!--Navigation--> */
-#NavLogo {
-    width: 100px;
-    height: 100px;
-    display: flex;
+/* <!--Mobile Version of Nav--> */
+@media only screen and (max-width: 996px) {
+    #socialMedia1 {
+        visibility: hidden;
+    }
+    #socialMedia2 {
+        visibility: hidden;
+    }
+    #socialMedia3 {
+        visibility: hidden;
+    }
+    #Envelope {
+        visibility: hidden;
+        display: none;
+    }
+    #Facebook {
+        visibility: hidden;
+        display: none;
+    }
+    #Twitter {
+        visibility: hidden;
+        display: none;
+    }
+    #searchIcon {
+        visibility: hidden;
+        display: none;
+    }
+    #NavLogo {
+        visibility: hidden;
+        display: none;
+    }
+    .nav-item {
+        background-color: white;
+        text-align: center;
+        margin-top: 0px !important;
+    }
+    .navbar-nav {
+        background-color: white;
+        margin: none;
+        align-content: center;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    #About {
+        border-color: #EDCB9A;
+        border-width: 3px;
+        background-color: white;
+        color: #EDCB9A !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+    }
+    #Shop {
+        border-color: #D7B482;
+        border-width: 3px;
+        background-color: white;
+        color: #D7B482 !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+    }
+    #Join {
+        border-color: #64CBCD;
+        border-width: 3px;
+        background-color: white;
+        color: #64CBCD !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+    }
+    #mobileFirstLink {
+        display: block !important;
+        border-color: #4FA3A5;
+        border-width: 3px;
+        background-color: white;
+        color: #4FA3A5 !important;
+        width: 100%;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+        font-size: 25px !important;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 300;
+    }
+    #Donate {
+        border-color: #2E6263;
+        border-width: 3px;
+        background-color: white;
+        color: #2E6263 !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+    }
+    #mobileTwitter{
+        color: black !important;
+        display: block !important;
+        left: 150px;
+        background-color: white;
+        top: 125px;    
+        padding: 5px !important;
+    }
+    #mobileFacebook{
+        color: black !important;
+        display: block !important;
+        left: 40px;
+        background-color: white;
+        top: 125px;  
+        width: 55px;
+        padding: 5px !important;
+    }
+    #mobileNavLogo {
+        display: block !important;
+        height: 120px;
+        width: 120px;
+        margin-left: 35% !important;
+        background-color: #64CBCD;
+        padding-bottom: 5px;
+    }
+    .navbar-toggler {
+        color: black !important;
+        padding: 15px;
+        margin-top: 100px;
+        right: 40px;
+    }
+    #mobileSearch {
+        color: black !important;
+        display: block !important;
+        right: 100px;
+        background-color: #64CBCD;
+        top: 125px;    
+    }
+}
+/* Desktop Version of Nav */
+nav {
+    position: absolute;
 }
 #topoftheworld {
+    font-size: 1.25rem;
+    font-family: 'Barlow', sans-serif;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #64CBCD;
-}
-#navbarNav {
-    font-family: "Barlow", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    letter-spacing: 5%;
-}
-.nav-item {
-    margin-top: 1.5rem;
-    padding:15px;
-    border:2px solid #4FA3A5;
-    background-color: #4FA3A5;
-    width:60px;
-    height:45px;
-    position:relative;
-    border-radius:4px;
-}
-.navbar #navbarNav .nav-link {
-    color: #000000;
-    font-size: 1.1em;
-}
-.navbar #navbarNav .nav-link:hover{
     color: white;
+    font-weight: 700;
+    letter-spacing: .5rem;
 }
-.fa-ellipsis-v {
+#NavLogo {
+    height: 100px;
+    width: 100px;
+    background-color: #64CBCD;
+    margin-top: 15px !important;
+    margin-left: 10px;
+}
+#mobileNavLogo {
+    display: none;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+.navbar-nav {
+    margin-top: 10px;
+}
+.navbar {
+    display: flex;
+    flex-wrap: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar > .container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.NAVBUTTON {
+    background-color: #4FA3A5;
+    width: 6rem;
+    color: white !important;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+button {
+    cursor: pointer;
+}
+#mobileFirstLink {
+    display: none; 
+}
+#mobileSearch {
+    display: none;
+}
+#searchIcon {
     color: black;
+    margin-top: 30px;
 }
-
+#socialMedia1 {
+    width: 30px;
+    height: 30px;
+    color: black !important;
+    font-size: 1.5em;
+    margin: 5px;
+    padding-top: 5px;
+}
+#socialMedia2 {
+    width: 30px;
+    height: 30px;
+    color: black !important;
+    font-size: 1.5em;
+    margin: 5px;
+    padding-top: 5px;
+}
+#socialMedia3 {
+    width: 30px;
+    height: 30px;
+    color: black !important;
+    font-size: 1.5em;
+    margin: 5px;
+    padding-top: 5px;
+}
+.btn-floating {
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+    background-color: white;
+    border: white;
+    position: absolute;
+}
+#mobileFacebook {
+    display: none;
+}
+#mobileTwitter {
+    display: none;
+}
+#Envelope {
+    right: 180px;
+    top: 10px;
+}
+#Facebook {
+    right: 105px;
+    top: 10px;
+}
+#Twitter {
+    right: 30px;
+    top: 10px;
+}
 /* <!--Footer--> */
 
 
