@@ -56,11 +56,146 @@ html {
 
 
 /* <!--Donate Page--> */
+.container-fluid{
+    align-items: center;
+}
 
 .padding {
  padding: 2rem;
 }
 
-.donate-jumbotron {
-    background-image: "../images";
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Playfair Display',serif;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+#f {
+    background-color: #64CBCD;
+}
+
+#iiii {
+    background-color: #2E6263;
+    height: 485px;
+    width: 656px;
+    padding-left: 103px;
+    padding-right: 103px;
+}
+
+#abcd {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 5%;
+    line-height: auto;
+    text-align: center;
+    align-items: middle;
+    width: 475px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+
+#sss {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: ;
+    padding-right: ;
+}
+
+#uuu {
+    display: block;
+    width: 200px;
+    height: 55px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #2E6263;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+} 
+
+#vvv {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 162px;
+}
+
+#xxx {
+    display: block;
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #2E6263;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+} 
+
+#yyy {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: ;
+    padding-right: ;
+}
+
+#aaaa {
+    display: block;
+    width: 425px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #2E6263;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+} 
+
+#bbbb {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: ;
+    padding-right: ;
+}
+
+#dddd {
+    display: block;
+    width: 425px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #2E6263;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+
+#eeee {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 135px;
+}
+
+#ffff {
+    color: #fff;
+    font-size: 24px;
+    font-weight: medium;
+    font-family: 'Barlow', sans-serif;
+    background-color: #4FA3A5;
+    border: 1px solid #4FA3A5;
+    border-radius: 4px;
 }
