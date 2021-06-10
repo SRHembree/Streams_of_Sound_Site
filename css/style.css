@@ -69,7 +69,7 @@ html {
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
+    bac
 }
 
 #a {
@@ -103,6 +103,32 @@ body {
     font-family: 'Barlow', sans-serif;
     text-align: center;
     color: #fff;
+}
+
+#money {
+    text-align: center;
+    font-size: 64px;
+    font-weight: normal;
+    font-family: 'Playfair Display',serif;
+}
+
+#red {
+    width: 400px;
+    height: 347px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#yellow {
+    width: 400px;
+    height: 347px;
+    margin-bottom: 35px;
+}
+
+#blue {
+    width: 400px;
+    height: 347px;
+    margin-bottom: 35px;
 }
 
 #f {
