@@ -72,6 +72,39 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
+#a {
+    background-image: url("../images/jumbotron.png");
+    height: 550px;
+    width: flex;
+}
+
+#b {
+    height: 252px;
+    width: 447px;
+    background-color: #64CBCD;
+    border-radius: 4px;
+    margin-top: 75px;
+}
+
+#c {
+    font-size: 64px;
+    font-weight: normal;
+    font-family: 'Playfair Display',serif;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+#d {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
 #f {
     background-color: #64CBCD;
 }
@@ -106,7 +139,6 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    margin-left: 80px;
 }
 
 #pp {
@@ -166,7 +198,6 @@ body {
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
-    margin-left: 125px;
 }
 
 #zz {
@@ -180,7 +211,6 @@ body {
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
-    margin-left: 125px;
 }
 
 #ccc {
@@ -194,7 +224,6 @@ body {
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
-    margin-left: 125px;
 }
 
 #ggg {
@@ -208,7 +237,7 @@ body {
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
-    margin-left: 217px;
+    margin-left: 68px;
 }
 
 #gg {
