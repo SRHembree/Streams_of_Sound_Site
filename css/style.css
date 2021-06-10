@@ -76,12 +76,243 @@ body {
     background-color: #64CBCD;
 }
 
+#cba {
+    color: #000000;
+    font-family: 'Playfair Display',serif;
+    font-size: 64px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#tub {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
+
+#oo {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    height: 35px;
+    width: 85px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+#pp {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    height: 35px;
+    width: 85px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#rr {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    height: 35px;
+    width: 85px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#ss {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    height: 35px;
+    width: 85px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#ww {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    height: 35px;
+    width: 374px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-left: 125px;
+}
+
+#zz {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    height: 35px;
+    width: 374px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-left: 125px;
+}
+
+#ccc {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    height: 35px;
+    width: 175px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-left: 125px;
+}
+
+#ggg {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    height: 35px;
+    width: 175px;
+    background-color: #fff;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-left: 217px;
+}
+
+#gg {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    height: 35px;
+    width: 85px;
+}
+
+#jj {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    height: 35px;
+    width: 85px;
+}
+
+#mm {
+    border: 1px solid #4FA3A5;
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    height: 35px;
+    width: 85px;
+}
+
+#iii {
+    color: #fff;
+    font-size: 18px;
+    font-weight: medium;
+    font-family: 'Barlow', sans-serif;
+    background-color: #4FA3A5;
+    border: 1px solid #4FA3A5;
+    border-radius: 4px;
+    height: 40px;
+    text-align: center;
+}
+
+#jjj {
+    width: 955px;
+    height: 400px;
+    padding-top: 0px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+#mmm {
+    width: 955px;
+    height: 400px;
+    padding-top: 0px;
+}
+
+#nnn {
+    padding-top: 0px;
+    width: 875px;
+    height: 400px;
+}
+
+#xyz {
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+#qqq {
+    color: #fff;
+    font-size: 18px;
+    font-weight: medium;
+    font-family: 'Barlow', sans-serif;
+    background-color: #4FA3A5;
+    border: 1px solid #4FA3A5;
+    border-radius: 4px;
+    margin-left: 135px;
+    margin-top: 0px;
+    height: 40px;
+}
+
+#ooo {
+    color: #000000;
+    font-family: 'Playfair Display',serif;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 135px;
+    padding-right: 400px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 #iiii {
     background-color: #2E6263;
-    height: 485px;
+    height: 425px;
     width: 656px;
     padding-left: 103px;
     padding-right: 103px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 #abcd {
@@ -109,7 +340,7 @@ body {
 #uuu {
     display: block;
     width: 200px;
-    height: 55px;
+    height: 40px;
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -131,7 +362,7 @@ body {
 #xxx {
     display: block;
     width: 200px;
-    height: 55px;
+    height: 40px;
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
@@ -152,7 +383,7 @@ body {
 #aaaa {
     display: block;
     width: 425px;
-    height: 55px;
+    height: 40px;
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
@@ -173,7 +404,7 @@ body {
 #dddd {
     display: block;
     width: 425px;
-    height: 55px;
+    height: 40px;
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
@@ -187,15 +418,17 @@ body {
 #eeee {
     padding-bottom: 15px;
     padding-top: 15px;
-    padding-left: 135px;
+    padding-left: 160px;
 }
 
 #ffff {
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: medium;
     font-family: 'Barlow', sans-serif;
     background-color: #4FA3A5;
     border: 1px solid #4FA3A5;
     border-radius: 4px;
+    text-align: center;
+    height: 40px;
 }
