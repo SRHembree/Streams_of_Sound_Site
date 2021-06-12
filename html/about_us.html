@@ -44,153 +44,230 @@
 </head>
 
 <body>
-     <!-- Nav HTML -->
-     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="topoftheworld">
-      <a class="navbar-brand d-lg-none" href="#"></a>
-      <div class="onlyOnMobile">
-          <a class="btn btn-primary btn-md btn-floating" id="mobileFacebook"
-              href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
-              <i class="fab fa-facebook-f fa-2x"></i>
+  <!-- Nav HTML -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="topoftheworld">
+    <a class="navbar-brand d-lg-none" href="#"></a>
+    <div class="onlyOnMobile">
+      <a class="btn btn-primary btn-md btn-floating" id="mobileFacebook"
+        href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
+        <i class="fab fa-facebook-f fa-2x"></i>
+      </a>
+      <a class="btn btn-primary btn-md btn-floating" id="mobileTwitter" href="https://healinghandpan.bandcamp.com/"
+        role="button">
+        <i class="fab fa-bandcamp fa-2x"></i>
+      </a>
+      <a href="https://srhembree.github.io/Streams_of_Sound_Site/#!"><img src="../images/SoSFinal.png"
+          id="mobileNavLogo">
+      </a>
+      <a class="btn btn-primary btn-md btn-floating" id="mobileSearch" href="#!" role="button">
+        <i class="fas fa-search fa-2x"></i>
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-ellipsis-v"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <a class="btn btn-primary btn-lg btn-floating" id="Envelope" href="#!" role="button">
+        <i class="fas fa-envelope fa-lg" id="socialMedia1"></i>
+      </a>
+      <a class="btn btn-primary btn-lg btn-floating" id="Facebook"
+        href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
+        <i class="fab fa-facebook-f fa-lg" id="socialMedia2"></i>
+      </a>
+      <a class="btn btn-primary btn-lg btn-floating" id="Twitter" href="https://healinghandpan.bandcamp.com/"
+        role="button">
+        <i class="fab fa-bandcamp fa-lg" id="socialMedia3"></i>
+      </a>
+      <ul class="navbar-nav mx-auto p-2">
+        <li class="nav-item mt-4">
+          <button class="nav-link NAVBUTTON btn" id="About"
+            href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/about_us.html">About</button>
+        </li>
+        <li class="nav-item mt-4">
+          <button class="nav-link NAVBUTTON btn" id="Shop" href="#">Shop</button>
+        </li>
+        <a href="#"><img src="../images/SoSFinal.png" id="NavLogo"></a>
+        <li class="nav-item mt-4">
+          <button class="nav-link NAVBUTTON btn" id="Join"
+            href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/join_us.html">Join</button>
+        </li>
+        <li class="nav-item mt-4">
+          <button class="nav-link btn" id="mobileFirstLink" href="#">Contact</button>
+        </li>
+        <li class="nav-item mt-4">
+          <button class="nav-link NAVBUTTON btn" id="Donate"
+            href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/donate.html">Donate</button>
+        </li>
+        <li class="nav-item p-3" id="searchIcon">
+          <i class="fas fa-search fa-lg"></i>
+        </li>
+      </ul>
+      <div>
+  </nav>
+  <!--Background video under jumbotron-->
+  <div class="aboutUsContainer">
+    <div class="backgroundVideoAbout">
+      <img src="../images/aboutUsJumbotron 1.09.27 PM.png" alt="Picture of a river and waterfall">
+      <!--Overlay Text on video-->
+      <div class="rounded" id="jumbotron1">
+        <h1 id="pageTitle1">
+          Learn About Us
+        </h1>
+        <br>
+        <p class="lead">
+          <a class="btn btn-primary" id="headerButton2" href="#" role="button">Experience The Peace
           </a>
-          <a class="btn btn-primary btn-md btn-floating" id="mobileTwitter" href="https://healinghandpan.bandcamp.com/" role="button">
-              <i class="fab fa-bandcamp fa-2x"></i>
-          </a>
-          <a href="https://srhembree.github.io/Streams_of_Sound_Site/#!"><img src="../images/SoSFinal.png" id="mobileNavLogo">
-          </a>
-          <a class="btn btn-primary btn-md btn-floating" id="mobileSearch" href="#!" role="button">
-              <i class="fas fa-search fa-2x"></i>
-          </a>
-      </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-ellipsis-v"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <a class="btn btn-primary btn-lg btn-floating" id="Envelope" href="#!" role="button">
-              <i class="fas fa-envelope fa-lg" id="socialMedia1"></i>
-          </a>
-          <a class="btn btn-primary btn-lg btn-floating" id="Facebook"
-              href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
-              <i class="fab fa-facebook-f fa-lg" id="socialMedia2"></i>
-          </a>
-          <a class="btn btn-primary btn-lg btn-floating" id="Twitter" href="https://healinghandpan.bandcamp.com/" role="button">
-              <i class="fab fa-bandcamp fa-lg" id="socialMedia3"></i>
-          </a>
-          <ul class="navbar-nav mx-auto p-2">
-              <li class="nav-item mt-4">
-                  <button class="nav-link NAVBUTTON btn" id="About" href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/about_us.html">About</button>
-              </li>
-              <li class="nav-item mt-4">
-                  <button class="nav-link NAVBUTTON btn" id="Shop" href="#">Shop</button>
-              </li>
-              <a href="#"><img src="./images/SoSFinal.png" id="NavLogo"></a>
-              <li class="nav-item mt-4">
-                  <button class="nav-link NAVBUTTON btn" id="Join" href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/join_us.html">Join</button>
-              </li>
-              <li class="nav-item mt-4">
-                  <button class="nav-link btn" id="mobileFirstLink" href="#">Contact</button>
-              </li>
-              <li class="nav-item mt-4">
-                  <button class="nav-link NAVBUTTON btn" id="Donate" href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/donate.html">Donate</button>
-              </li>
-              <li class="nav-item p-3" id="searchIcon">
-                  <i class="fas fa-search fa-lg"></i>
-              </li>
-          </ul>
-          <div>
-      </nav>
-  <!-- Title Section -->
-  <header class="masthead">
-    <div class="container">
-      <div class="headermast">
-        <div class="masthead-subhead">Get Out There.</div>
-        <div class="masthead-header">Experience the World: There & Back</div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="https://srhembree.github.io/UX_UI_HW_21_Get_Started/">GET
-          STARTED</a>
-      </div>
-  </header>
-  <br>
-  <br>
-  <br>
-  <!-- Where to begin sub -->
-  <div class="container">
-    <div class="row" id="content">
-      <div class="col-md-4">
-        <div class="card px-2">
-          <a href="https://srhembree.github.io/UX_UI_HW_21_Get_Started/">
-            <img class="card-img-top img-wrapper" src="images/gettingStarted.JPG"
-              alt="Getting started for an adventure">
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Get Started</h5>
-            <p class="card-text">Understand the 5W's (and 'H') of international travel (who, what, when, where, why,
-              how).</p>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="col-md-4">
-        <div class="card px-2">
-          <a href="https://srhembree.github.io/UX_UI_HW_21_TipsTricks/">
-            <img class="card-img-top img-wrapper" src="images/tips&Tricks.jpg" alt="Tips and tricks to travel">
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Tips & Tricks</h5>
-            <p class="card-text">Learn how to get around, wherever you go. Travel like a pro and bring the essentials
-              with you.</p>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="col-md-4">
-        <div class="card px-2">
-          <a href="https://srhembree.github.io/UX_UI_HW_21_Related_Hobbies/">
-            <img class="card-img-top img-wrapper" src="images/relatedHobbies.jpg" alt="Hobbies related to travel">
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Related Hobbies</h5>
-            <p class="card-text">Like getting out of your comfort zone? Learn about hobbies that can be done locally or
-              abroad.</p>
-          </div>
-        </div>
-        <hr>
+        </p>
       </div>
     </div>
   </div>
-  <!--Footer-->
-  <footer>
+  <br>
+  <!--Content under jumbotron-->
+  <div class="container">
+    <iframe style="border: 0; width: 100%; height: 42px;"
+      src="https://bandcamp.com/EmbeddedPlayer/album=1052964393/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+      seamless><a href="https://healinghandpan.bandcamp.com/album/inward-journey-1-limen">
+        Inward Journey 1: Limen by Healing Handpan Alliance</a>
+    </iframe>
+    <div class="card">
+      <h5 class="cardtitlehome">History In The Making</h5>
+      <div class="card-body">
+        Streams of Sound is a nonprofit corporation whose purpose and mission is to
+        bring handpan music into healing facilities of all types.
+        <br>
+        The handpan is a beautiful new musical instrument that has attracted sound
+        healing practitioners around the globe.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="../images/aboutUsHistory1.png" alt="Two men playing handpan">
+      </div>
+      <div class="col-md-6">
+        <img src="../images/aboutUsHistory2.png" alt="Demonstrating how the handpan works to the public">
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="../images/aboutUsHandpanIntro.png" alt="Image of a small stream with a waterfall">
+      </div>
+      <!-- <div class="rounded" id="jumbotron1">
+        <h1 id="pageTitle2">
+          What Is The Handpan?
+        </h1> -->
+    </div> -->
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>The handpan, initially known as the “Hang”, which means “hand” in Bernese German, is a group
+        of convex steel pan instruments with a wide variety of notes and octaves to play. It originated
+        in Bern, Switzerland, in 2001, and has since become very popular in Europe and North America
+        for its ethereal sound effects. </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="../images/artistWithHandpan.png" alt="An artist holding his handpan">
+      <p>An artist with his handpan</p>
+    </div>
+    <div class="col-md-4">
+      <img src="../images/softRhythm.png" alt="A performer playing a soft rhythm for patients">
+      <p>Making a soft rhythm</p>
+    </div>
+    <div class="col-md-4">
+      <img src="../images/performerPlaying.png" alt="An artist playing a handpan for others">
+      <p>A performer playing</p>
+    </div>
+  </div>
+  </div>
+  <br>
+  <div class="container">
+    <h5 class="cardtitlehome">Take A Listen</h5>
+    <br>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AoGIOxV-Iww" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+          gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      <p>Healing sounds for those in need</p>
+    </div>
+    <br>
     <div class="background">
-      <div class="row">
-        <div class="col-md-4">
-          <a class="btn btn-primary btn-lg btn-floating" id="EnvelopeFooter" href="#!" role="button">
-            <i class="fas fa-envelope fa-lg" id="socialsFooter"></i>
-          </a>
-          <a class="btn btn-primary btn-lg btn-floating" id="FacebookFooter"
-            href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
-            <i class="fab fa-facebook-f fa-lg" id="socialsFooter"></i>
-          </a>
-          <a class="btn btn-primary btn-lg btn-floating" id="TwitterFooter" href="https://healinghandpan.bandcamp.com/" role="button">
-            <i class="fab fa-bandcamp fa-lg" id="socialsFooter"></i>
-          </a>
-        </div>
+      <div class="container">
+        <h5 class="cardtitlehome">Our Blog</h5>
         <br>
-        <div class="col-md-4">
-          <a href="https://srhembree.github.io/Streams_of_Sound_Site/#!"><img src="../images/SoSFinal.png" id="navIconFooter"></a>
-          <div class="copyright">Streams of Sound © 2021</div>
-        </div>
-        <br>
-        <div class="col-md-4">
-          <form class="form-inline signupform">
-            <h6 id="signUp">Sign Up For Our Newsletter</h6>
-            <input class="form-control mr-sm-2 SIGNUP" type="search" placeholder="email address" aria-label="Search">
-            <button class="btn my-2 my-sm-0 submitButton" type="submit">Submit</button>
-          </form>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="../images/helloInThereBlog.png" alt="Three handpans used in a raffle">
+              <div class="card-title">
+                <h5>Hello In There</h5>
+              </div>
+              <div class="card-body">
+                <div id="datesForBlog">
+                  <h6>March 2021</h6>
+                </div>
+                <p>“The late, great American folk singer/songwriter John Prine captured the
+                  sad plight of many in our aging population with these lyrics from the song
+                  ‘Hello in There’.
+                  <br>
+                  ‘You know that old trees just grow...’”</p>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <p class="lead">
+                    <a class="btn btn-primary btn-md" id="headerButton" href="#" role="button">View More
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <br>
-      <br>
     </div>
-  </footer>
+
+
+    <!--Footer-->
+    <footer>
+      <div class="background">
+        <div class="row">
+          <div class="col-md-4">
+            <a class="btn btn-primary btn-lg btn-floating" id="EnvelopeFooter" href="#!" role="button">
+              <i class="fas fa-envelope fa-lg" id="socialsFooter"></i>
+            </a>
+            <a class="btn btn-primary btn-lg btn-floating" id="FacebookFooter"
+              href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
+              <i class="fab fa-facebook-f fa-lg" id="socialsFooter"></i>
+            </a>
+            <a class="btn btn-primary btn-lg btn-floating" id="TwitterFooter"
+              href="https://healinghandpan.bandcamp.com/" role="button">
+              <i class="fab fa-bandcamp fa-lg" id="socialsFooter"></i>
+            </a>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <a href="https://srhembree.github.io/Streams_of_Sound_Site/#!"><img src="../images/SoSFinal.png"
+                id="navIconFooter"></a>
+            <div class="copyright">Streams of Sound © 2021</div>
+          </div>
+          <br>
+          <div class="col-md-4">
+            <form class="form-inline signupform">
+              <h6 id="signUp">Sign Up For Our Newsletter</h6>
+              <input class="form-control mr-sm-2 SIGNUP" type="search" placeholder="email address" aria-label="Search">
+              <button class="btn my-2 my-sm-0 submitButton" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+        <br>
+        <br>
+      </div>
+    </footer>
 </body>
 
 </html>

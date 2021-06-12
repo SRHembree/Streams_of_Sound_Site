@@ -392,13 +392,29 @@ button {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 48px;
-    font-size: 4vw;
+    font-size: 48px !important;
+    /* font-size: 4vw; */
     text-align: center;
-    margin-bottom: 1vh;
+    margin-bottom: .25vh;
+}
+#pageTitle1 {
+    margin: 0;
+    font-family: 'playfair-display', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 48px !important;
+    /* font-size: 4vw; */
+    text-align: center;
+    margin-bottom: .25vh;
 }
 .homepageContainer {
     width: 102vw;
+    position: relative;
+    margin-top: -4vh;
+}
+.aboutUsContainer {
+    width: 100vw;
     position: relative;
     margin-top: -4vh;
 }
@@ -421,8 +437,8 @@ button {
     border-color: #D7B483;
     border-width: 2px;
     font-family: 'barlow', sans-serif;
-    font-size: 18px;
-    font-size: 2.4vw;
+    font-size: 18px !important;
+    font-size: 1.5vw;
     font-weight: 600;
     width: 100%;
     cursor: pointer;
@@ -432,6 +448,35 @@ button {
     background: #2E6263;
     color: white;
     border-color: #2E6263;
+}
+#headerButton2 {
+    background-color: #EDCB9A;
+    color: black;
+    border-color: #D7B483;
+    border-width: 2px;
+    font-family: 'barlow', sans-serif;
+    font-size: 18px !important;
+    font-size: 1.5vw;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+}
+#headerButton2:hover {
+    background: #2E6263;
+    color: white;
+    border-color: #2E6263;
+}
+.backgroundVideoAbout {
+    position: relative;
+    z-index: -1;
+    right: 0;
+    left:0;
+    bottom: 0;
+    top:0;
+    width: 100%;
+    min-height: 100%;
+    min-height: -80px;
 }
 #video-background {
     position: relative;
