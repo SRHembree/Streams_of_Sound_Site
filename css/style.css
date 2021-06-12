@@ -466,20 +466,20 @@ button {
 
 
 /* <!--Donate Page--> */
-.container-fluid{
+/* .container-fluid{
     padding-left: 50px;
     padding-right: 50px;
-}
+} */
 
 .donationPadding {
  padding: 2rem;
 }
 
-body {
+/* body {
     background: url("../images/riverrocks.png");
     max-width: 100%;
     height: auto;
-}
+} */
 
 #a {
     background-image: url("../images/jumbotron.png");
@@ -584,13 +584,13 @@ body {
     margin-bottom: 35px;
 }
 
-.card-body {
+/* .card-body {
     font-family: 'Barlow', sans-serif;
     font-size: 24px;
     font-weight: normal;
     text-align: left;
-}
-
+} */
+/* 
 .btn,
 .btn-link,
 .btn-link:hover,
@@ -602,7 +602,7 @@ body {
     font-weight: normal;
     text-align: left;
     color: #64CBCD;
-}
+} */
 
 #headingOne {
     background-color: #fff;
