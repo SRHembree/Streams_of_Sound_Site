@@ -41,34 +41,61 @@
 </head>
 
 <body>
-  <!-- Nav HTML -->
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+     <!-- Nav HTML -->
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="topoftheworld">
+      <a class="navbar-brand d-lg-none" href="#"></a>
+      <div class="onlyOnMobile">
+          <a class="btn btn-primary btn-md btn-floating" id="mobileFacebook"
+              href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
+              <i class="fab fa-facebook-f fa-2x"></i>
+          </a>
+          <a class="btn btn-primary btn-md btn-floating" id="mobileTwitter" href="https://healinghandpan.bandcamp.com/" role="button">
+              <i class="fab fa-bandcamp fa-2x"></i>
+          </a>
+          <a href="https://srhembree.github.io/Streams_of_Sound_Site/#!"><img src="../images/SoSFinal.png" id="mobileNavLogo">
+          </a>
+          <a class="btn btn-primary btn-md btn-floating" id="mobileSearch" href="#!" role="button">
+              <i class="fas fa-search fa-2x"></i>
+          </a>
       </div>
-    </div>
-  </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-ellipsis-v"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="btn btn-primary btn-lg btn-floating" id="Envelope" href="#!" role="button">
+              <i class="fas fa-envelope fa-lg" id="socialMedia1"></i>
+          </a>
+          <a class="btn btn-primary btn-lg btn-floating" id="Facebook"
+              href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
+              <i class="fab fa-facebook-f fa-lg" id="socialMedia2"></i>
+          </a>
+          <a class="btn btn-primary btn-lg btn-floating" id="Twitter" href="https://healinghandpan.bandcamp.com/" role="button">
+              <i class="fab fa-bandcamp fa-lg" id="socialMedia3"></i>
+          </a>
+          <ul class="navbar-nav mx-auto p-2">
+              <li class="nav-item mt-4">
+                  <button class="nav-link NAVBUTTON btn" id="About" href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/about_us.html">About</button>
+              </li>
+              <li class="nav-item mt-4">
+                  <button class="nav-link NAVBUTTON btn" id="Shop" href="#">Shop</button>
+              </li>
+              <a href="#"><img src="./images/SoSFinal.png" id="NavLogo"></a>
+              <li class="nav-item mt-4">
+                  <button class="nav-link NAVBUTTON btn" id="Join" href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/join_us.html">Join</button>
+              </li>
+              <li class="nav-item mt-4">
+                  <button class="nav-link btn" id="mobileFirstLink" href="#">Contact</button>
+              </li>
+              <li class="nav-item mt-4">
+                  <button class="nav-link NAVBUTTON btn" id="Donate" href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/donate.html">Donate</button>
+              </li>
+              <li class="nav-item p-3" id="searchIcon">
+                  <i class="fas fa-search fa-lg"></i>
+              </li>
+          </ul>
+          <div>
+      </nav>
   <!-- Title Section -->
   <div class="jumbotron">
     <h1 class="display-4">Hello, world!</h1>
@@ -157,9 +184,38 @@
     </div>
   </div>
 
-  <!-- Footer HTML -->
-  <footer class="page-footer font-small special-color-dark pt-4">
-    <div class="footer-copyright text-center py-3">© Travel Blog 2021
+  <!--Footer-->
+  <footer>
+    <div class="background">
+      <div class="row">
+        <div class="col-md-4">
+          <a class="btn btn-primary btn-lg btn-floating" id="EnvelopeFooter" href="#!" role="button">
+            <i class="fas fa-envelope fa-lg" id="socialsFooter"></i>
+          </a>
+          <a class="btn btn-primary btn-lg btn-floating" id="FacebookFooter"
+            href="https://www.facebook.com/Streams-Of-Sound-INC-102509924648338/" role="button">
+            <i class="fab fa-facebook-f fa-lg" id="socialsFooter"></i>
+          </a>
+          <a class="btn btn-primary btn-lg btn-floating" id="TwitterFooter" href="https://healinghandpan.bandcamp.com/" role="button">
+            <i class="fab fa-bandcamp fa-lg" id="socialsFooter"></i>
+          </a>
+        </div>
+        <br>
+        <div class="col-md-4">
+          <a href="https://srhembree.github.io/Streams_of_Sound_Site/#!"><img src="../images/SoSFinal.png" id="navIconFooter"></a>
+          <div class="copyright">Streams of Sound © 2021</div>
+        </div>
+        <br>
+        <div class="col-md-4">
+          <form class="form-inline signupform">
+            <h6 id="signUp">Sign Up For Our Newsletter</h6>
+            <input class="form-control mr-sm-2 SIGNUP" type="search" placeholder="email address" aria-label="Search">
+            <button class="btn my-2 my-sm-0 submitButton" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <br>
+      <br>
     </div>
   </footer>
 </body>
