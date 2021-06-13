@@ -17,9 +17,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/xem7dmp.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!--JavaScript Kits-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -47,6 +51,160 @@
 </head>
 
 <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <!-- Nav HTML -->
+
+        <!-- Title Section -->
+        <div class="jumbotron jumbotron-fluid" id="a">
+          <div class="container" id="b">
+            <h1 class="display-4" id="c">Make A Donation</h1>
+            <p class="lead" id="d">Bring Peace of Mind to Those Who Need it Most</p>
+          </div>
+        </div>
+        <!-- Where to begin sub -->
+        <h1 id="money">Where Is My Money Going?</h1>
+        <div class="card-deck" id="red">
+          <div class="card">
+            <img src="../images/stepone.png" class="card-img-top" id="orange">
+            <div class="card-body">
+              <p class="card-text" id="horse">After you click “Donate”, funds are distributed in three ways. The first
+                is to our artists, who schedule with us to perform at the various hospitals and care facilities around
+                Jacksonville, FL.</p>
+            </div>
+          </div>
+          <div class="card" id="yellow">
+            <img src="../images/steptwo.png" class="card-img-top" id="green">
+            <div class="card-body">
+              <p class="card-text" id="pig">Second, donations are funneled into new instruments that are used to expand
+                our therapeutic purposes to other hospitals and care facilities in the are.</p>
+            </div>
+          </div>
+          <div class="card" id="blue">
+            <img src="../images/stepthree.png" class="card-img-top" id="purple">
+            <div class="card-body">
+              <p class="card-text" id="cow">The last third of the funds are used to pay for operating costs, such as
+                website maintenance, background checks for our artists, and training.</p>
+            </div>
+          </div>
+        </div>
+        <h1 id="questions">Got Questions?</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                  data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Question #1
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the
+                <code>.show</code> class.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Question #2
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Some placeholder content for the second accordion panel. This panel is hidden by default.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Question #3
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by
+                default.
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 id="cba">Make Your Donation</h1>
+        <h4 id="tub">Choose Your Donation Amount</h4>
+        <button type="button" class="btn btn-secondary btn-sm" id="oo">$5</button>
+        <button type="button" class="btn btn-secondary btn-sm" id="pp">$10</button>
+        <button type="button" class="btn btn-secondary btn-sm" id="rr">$20</button>
+        <button type="button" class="btn btn-secondary btn-sm" id="ss">Other</button>
+        <h4 id="tub">Choose Your Form of Payment</h4>
+        <form class="row g-3" id="tt">
+          <div class="col-12" id="uu">
+            <label for="inputAddress" class="form-label" id="vv"></label>
+            <input type="text" class="form-control" id="ww" placeholder="Name On Card">
+          </div>
+          <div class="col-12" id="xx">
+            <label for="inputAddress2" class="form-label" id="yy"></label>
+            <input type="text" class="form-control" id="zz" placeholder="Card Number">
+          </div>
+          <div class="col-md-2" id="aaa">
+            <label for="inputZip" class="form-label" id="bbb"></label>
+            <input type="text" class="form-control" id="ccc" placeholder="MM/YY">
+          </div>
+          <div class="col-md-2" id="ddd">
+            <label for="inputZip" class="form-label" id="fff"></label>
+            <input type="text" class="form-control" id="ggg" placeholder="CVV">
+          </div>
+          <div class="col-12" id="hhh">
+            <button type="submit" class="btn btn-primary" id="iii">Make Payment</button>
+          </div>
+        </form>
+        <br>
+        <div class="card mb-3" id="jjj">
+          <div class="row g-0" id="kkl">
+            <div class="col-md-4" id="lll">
+              <img id="xyz" src="../images/Imagewaterfill.png" style="max-width: 100%;height:auto">
+            </div>
+            <div class="col-md-8" id="mmm">
+              <div class="card-body" id="nnn">
+                <h5 class="card-title" id="ooo">Make a Donation Dedicated to a Loved One</h5>
+                <button type="button" class="btn btn-secondary btn-sm" id="qqq">Make a Dedicated Donation</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="iiii">
+          <h1 id="abcd">Interested in booking a live one-on-one session?</h1>
+          <form class="row g-3" id="rrr">
+            <div class="col-md-2" id="sss">
+              <label for="inputZip" class="form-label" id="ttt"></label>
+              <input type="text" class="form-control" id="uuu" placeholder="First Name">
+            </div>
+            <div class="col-md-2" id="vvv">
+              <label for="inputZip" class="form-label" id="www"></label>
+              <input type="text" class="form-control" id="xxx" placeholder="Last Name">
+            </div>
+
+            <div class="col-12" id="yyy">
+              <label for="inputAddress" class="form-label" id="zzz"></label>
+              <input type="text" class="form-control" id="aaaa" placeholder="email@gmail.com">
+            </div>
+            <div class="col-12" id="bbbb">
+              <label for="inputAddress2" class="form-label" id="cccc"></label>
+              <input type="text" class="form-control" id="dddd" placeholder="(_ _ _)  _ _ _-_ _ _ _">
+            </div>
+            <div class="col-12" id="eeee">
+              <button type="submit" class="btn btn-primary" id="ffff">Get In Contact</button>
+            </div>
+          </form>
         </div>
         <!-- Footer HTML -->
         <footer class="page-footer font-small special-color-dark pt-4" id="gggg">
@@ -55,6 +213,7 @@
         </footer>
       </div>
     </div>
+  </div>
 </body>
 
 </html>
