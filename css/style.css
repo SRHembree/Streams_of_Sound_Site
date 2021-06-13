@@ -459,23 +459,18 @@ button {
 .coloredbackground {
     background-color: #2E6263;
 }
-/* <!--About Us Page--> */
-
-
-/* <!--Join Us Page--> */
-
-
 /* <!--Donate Page--> */
-.container-fluid{
+.container-fluid1{
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 175px;
 }
 
 .donationPadding {
  padding: 2rem;
 }
 
-body {
+.backgroundForDonation {
     background: url("../images/riverrocks.png");
     max-width: 100%;
     height: auto;
@@ -584,16 +579,8 @@ body {
     margin-bottom: 35px;
 }
 
-.card-body {
-    font-family: 'Barlow', sans-serif;
-    font-size: 24px;
-    font-weight: normal;
-    text-align: left;
-}
-
-.btn,
+/* .btn, */
 .btn-link,
-.btn-link:hover,
 .btn-block,
 .text-left,
 .collapsed {
@@ -602,6 +589,10 @@ body {
     font-weight: normal;
     text-align: left;
     color: #64CBCD;
+}
+
+.btn-link:hover {
+    color: #EDCB9A;
 }
 
 #headingOne {
