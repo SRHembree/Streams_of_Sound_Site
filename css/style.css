@@ -5,6 +5,150 @@
 html {
     scroll-behavior: smooth; 
 }
+body {
+    padding-top: 200px;
+}
+/* Mobile CSS */
+@media only screen and (max-width: 995px) {
+    #socialMedia1 {
+        visibility: hidden;
+    }
+    #socialMedia2 {
+        visibility: hidden;
+    }
+    #socialMedia3 {
+        visibility: hidden;
+    }
+    #Envelope {
+        visibility: hidden;
+        display: none;
+    }
+    #Facebook {
+        visibility: hidden;
+        display: none;
+    }
+    #Twitter {
+        visibility: hidden;
+        display: none;
+    }
+    #searchIcon {
+        visibility: hidden;
+        display: none;
+    }
+    #NavLogo {
+        visibility: hidden;
+        display: none;
+    }
+    .nav-item {
+        background-color: white;
+        text-align: center;
+        margin-top: 0px !important;
+    }
+    .navbar-nav {
+        background-color: white;
+        margin: none;
+        align-content: center;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    #About {
+        border-color: #EDCB9A;
+        border-width: 3px;
+        background-color: white;
+        color: #EDCB9A !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+    }
+    #Shop {
+        border-color: #D7B482;
+        border-width: 3px;
+        background-color: white;
+        color: #D7B482 !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+    }
+    #Join {
+        border-color: #64CBCD;
+        border-width: 3px;
+        background-color: white;
+        color: #64CBCD !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+    }
+    #mobileFirstLink {
+        display: block !important;
+        border-color: #4FA3A5;
+        border-width: 3px;
+        background-color: white;
+        color: #4FA3A5 !important;
+        width: 100%;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+        font-size: 25px !important;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 300;
+    }
+    #Donate {
+        border-color: #2E6263;
+        border-width: 3px;
+        background-color: white;
+        color: #2E6263 !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+    }
+    #mobileTwitter{
+        color: black !important;
+        display: block !important;
+        left: 150px;
+        background-color: white;
+        top: 125px;    
+        padding: 5px !important;
+    }
+    #mobileFacebook{
+        color: black !important;
+        display: block !important;
+        left: 40px;
+        background-color: white;
+        top: 125px;  
+        width: 55px;
+        padding: 5px !important;
+    }
+    #mobileNavLogo {
+        display: block !important;
+        height: 120px;
+        width: 120px;
+        margin-left: 35% !important;
+        background-color: #64CBCD;
+        padding-bottom: 5px;
+    }
+    .navbar-toggler {
+        color: black !important;
+        padding: 15px;
+        margin-top: 100px;
+        right: 40px;
+    }
+    #mobileSearch {
+        color: black !important;
+        display: block !important;
+        right: 100px;
+        background-color: #64CBCD;
+        top: 125px;    
+    }
+}
+/* <!-- Desktop --> */
 #topoftheworld {
     font-size: 1.25rem;
     font-family: 'Barlow', sans-serif;
@@ -464,7 +608,7 @@ button {
 .container-fluid1{
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 175px;
+    margin-top: -30px;
 }
 
 .donationPadding {
@@ -481,6 +625,7 @@ button {
     background-image: url("../images/jumbotron.png");
     height: auto;
     max-width: 100%;
+    
 }
 
 #b {
