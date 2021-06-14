@@ -604,37 +604,32 @@ button {
 .coloredbackground {
     background-color: #2E6263;
 }
+/* _______________________________________ */
 /* <!--Donate Page--> */
 .container-fluid1{
     padding-left: 50px;
     padding-right: 50px;
     margin-top: -30px;
 }
-
 .donationPadding {
  padding: 2rem;
 }
-
 .backgroundForDonation {
     background: url("../images/riverrocks.png");
     max-width: 100%;
     height: auto;
 }
-
 #a {
     background-image: url("../images/jumbotron.png");
     height: auto;
-    max-width: 100%;
-    
+    max-width: 100%; 
 }
-
 #b {
     height: 252px;
     width: 447px;
     background-color: #64CBCD;
     border-radius: 4px;
 }
-
 #c {
     font-size: 64px;
     font-weight: normal;
@@ -644,7 +639,6 @@ button {
     padding-bottom: 15px;
     color: #fff;
 }
-
 #d {
     font-size: 36px;
     font-weight: 300;
@@ -653,63 +647,52 @@ button {
     text-align: center;
     color: #fff;
 }
-
 #money {
     text-align: center;
     font-size: 64px;
     font-weight: normal;
     font-family: 'Playfair Display',serif;
 }
-
 #red {
     margin-bottom: 35px;
     margin-top: 35px;
 }
-
 #blue {
     margin-bottom: 35px;
 }
-
 #yellow {
     margin-bottom: 35px;
 }
-
 #orange {
     height: auto;
     max-width: 100%;
 }
-
 #green {
     height: auto;
     max-width: 100%;
 }
-
 #purple {
     height: auto;
     max-width: 100%;
 }
-
 #horse {
     font-family: 'Barlow', sans-serif;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
 }
-
 #pig {
     font-family: 'Barlow', sans-serif;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
 }
-
 #cow {
     font-family: 'Barlow', sans-serif;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
 }
-
 #questions {
     color: #000000;
     font-family: 'Playfair Display',serif;
@@ -719,12 +702,10 @@ button {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #accordionExample {
     margin-top: 35px;
     margin-bottom: 35px;
 }
-
 /* .btn, */
 .btn-link,
 .btn-block,
@@ -736,29 +717,24 @@ button {
     text-align: left;
     color: #64CBCD;
 }
-
 .btn-link:hover {
     color: #EDCB9A;
 }
-
 #headingOne {
     background-color: #fff;
     border: 1px solid #64CBCD;
     border-radius: 4px;
 }
-
 #headingTwo {
     background-color: #fff;
     border: 1px solid #64CBCD;
     border-radius: 4px;
 }
-
 #headingThree {
     background-color: #fff;
     border: 1px solid #64CBCD;
     border-radius: 4px;
 }
-
 #cba {
     color: #000000;
     font-family: 'Playfair Display',serif;
@@ -768,7 +744,6 @@ button {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #tub {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
@@ -776,7 +751,6 @@ button {
     font-size: 24px;
     text-align: center;
 }
-
 #oo {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -790,7 +764,6 @@ button {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-
 #pp {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -806,7 +779,6 @@ button {
     margin-left: 35px;
     margin-right: 35px;
 }
-
 #rr {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -820,7 +792,6 @@ button {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-
 #ss {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -836,7 +807,6 @@ button {
     margin-left: 35px;
     margin-right: 35px;
 }
-
 #ww {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -849,7 +819,6 @@ button {
     color: #000000;
     margin-bottom: 15px;
 }
-
 #zz {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -862,7 +831,6 @@ button {
     color: #000000;
     margin-bottom: 15px;
 }
-
 #ccc {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -876,7 +844,6 @@ button {
     margin-bottom: 15px;
     margin-right: 35px;
 }
-
 #ggg {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -888,7 +855,6 @@ button {
     background-color: #fff;
     color: #000000;
 }
-
 #gg {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -898,7 +864,6 @@ button {
     height: 35px;
     width: 85px;
 }
-
 #jj {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -908,7 +873,6 @@ button {
     height: 35px;
     width: 85px;
 }
-
 #mm {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -918,7 +882,6 @@ button {
     height: 35px;
     width: 85px;
 }
-
 #iii {
     color: #fff;
     font-size: 18px;
@@ -931,7 +894,6 @@ button {
     width: 20%;
     text-align: center;
 }
-
 #jjj {
     height: auto;
     max-width: 100%;
@@ -939,26 +901,22 @@ button {
     margin-bottom: 35px;
     margin-top: 35px;
 }
-
 #mmm {
     height: auto;
     max-width: 100%;
     padding-top: 0px;
 }
-
 #nnn {
     padding-top: 0px;
     height: auto;
     max-width: 100%;
 }
-
 #xyz {
     height: 400px;
     width: 400px;
     border-radius: 4px;
     margin: 0px;
 }
-
 #qqq {
     color: #fff;
     font-size: 18px;
@@ -969,7 +927,6 @@ button {
     border-radius: 4px;
     height: 40px;
 }
-
 #ooo {
     color: #000000;
     font-family: 'Playfair Display',serif;
@@ -977,13 +934,11 @@ button {
     font-weight: normal;
     text-align: left;
 }
-
 #iiii {
     background-color: #2E6263;
     height: auto;
     max-width: 100%;
 }
-
 #abcd {
     color: #fff;
     font-family: 'Playfair Display', serif;
@@ -994,12 +949,10 @@ button {
     text-align: center;
     align-items: middle;
 }
-
 #sss {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #uuu {
     display: block;
     height: auto;
@@ -1015,12 +968,10 @@ button {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 } 
-
 #vvv {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #xxx {
     display: block;
     height: auto;
@@ -1034,12 +985,10 @@ button {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 } 
-
 #yyy {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #aaaa {
     display: block;
     height: auto;
@@ -1053,12 +1002,10 @@ button {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 } 
-
 #bbbb {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #dddd {
     display: block;
     height: auto;
@@ -1072,12 +1019,10 @@ button {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 }
-
 #eeee {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #ffff {
     color: #fff;
     font-size: 18px;
@@ -1091,6 +1036,8 @@ button {
     width: 200px;
 }
 
+/* ______________________________________________ */
+/* Join Page */
 .joinLand {
     margin-top: 168px;
     background-image: url(../images/teampic.png);
