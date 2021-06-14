@@ -16,11 +16,12 @@ html {
     letter-spacing: .5rem;
 }
 #NavLogo {
-    height: 100px;
+
     width: 100px;
     background-color: #64CBCD;
     margin-top: 15px !important;
     margin-left: 10px;
+    margin-right: 10px;
 }
 #mobileNavLogo {
     display: none;
@@ -156,7 +157,7 @@ button {
 }
 #navIconFooter {
     display: block !important;
-    height: 120px;
+
     width: 120px;
     margin-left: 35% !important;
     padding-bottom: 5px;
@@ -943,4 +944,142 @@ button {
     text-align: center;
     height: auto;
     width: 200px;
+}
+
+.joinLand {
+    margin-top: 168px;
+    background-image: url(../images/teampic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+.joinHeadTxt {
+    height: 100px;
+    background-color: #2E6263;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinTitle{
+    color: white;
+}
+
+/* Join Process Section */
+.processBack {
+    background-image: url(../images/background-stones.png);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.processBox {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+}
+.processHead {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.processItem {
+    margin-bottom: 20px;
+}
+.processTxtBox {
+    color: black; opacity: 1;
+}
+.processTxtBox li {
+    margin-left: 50px;
+}
+.processButton {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Artist Testimonial Section */
+.artistSection {
+    padding-top: 50px;
+    background-color: #EDCB9A;
+    height: 90vh;
+    justify-content: center;
+}
+.artistHeadBox {
+    display:flex;
+    justify-content: center;
+}
+.artistHeading {
+    padding-bottom: 50px;
+}
+.artistImg {
+    padding: 20px;
+}
+.artistQuote {
+    font-style: italic;
+}
+.artistName {
+    margin-top: 10px;
+}
+.artistCard {
+    height: 220px;
+    border-radius: 8px;
+}
+
+/* Gig Section */
+.gigSection {
+    padding-top: 100px;
+    background-color: white;
+    height: 90vh;
+    justify-content: center;
+}
+.gigHeadBox {
+    display:flex;
+    justify-content: center;
+}
+.gigHeading {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.gigDate {
+    margin-bottom: 20px
+}
+.gigPlace {
+    margin-top: 20px;
+}
+.gigCard {
+    height: 220px;
+    background-color: #4FA3A5;
+    color: white;
+    border-radius: 8px;
+}
+.gigButton {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Join Form Section */
+
+.joinFormSection {
+    background-color: #64CBCD;
+    height: 90vh;
+    padding-top: 100px;
+}
+.formHeaderTxt {
+    margin-bottom: 25px;
+}
+.joinFormTxtBox {
+    display: flex;
+    justify-content: center;
+}
+.joinForm {
+    width: 400px;
+    margin: auto;
+}
+.applyButton {
+    display:flex;
+    justify-content: center;
 }

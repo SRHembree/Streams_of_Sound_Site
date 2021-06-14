@@ -80,7 +80,7 @@
               <li class="nav-item mt-4">
                   <button class="nav-link NAVBUTTON btn" id="Shop" href="#">Shop</button>
               </li>
-              <a href="#"><img src="./images/SoSFinal.png" id="NavLogo"></a>
+              <a href="#"><img src="../images/SoSFinal.png" id="NavLogo"></a>
               <li class="nav-item mt-4">
                   <button class="nav-link NAVBUTTON btn" id="Join" href="file:///Users/sydneyhembree/Desktop/MyCode/SOS_Project/Streams_of_Sound_Site/html/join_us.html">Join</button>
               </li>
@@ -97,58 +97,72 @@
           <div>
       </nav>
   <!-- Title Section -->
-  <div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-      featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
+  <div class="joinLand">
+      <div class="joinHeadTxt">
+        <h1 class="display-4 joinTitle">Join Our Team!</h1>
+      </div>
   </div>
 
   <!-- Body 1 -->
-  <div>
-    <div>
-
+  <section class="joinProcess">
+    <div class="processBack">
+      <div class="processBox">
+        <div class="processTxtBox">
+        <h1 class="display-4 processHead">The Process</h1>
+        <ul class="processList">
+          <li>
+            <p class="processItem process1">1. Apply through the form below </p>
+            <p class="processItem">2. Informal interview</p>
+            <p class="processItem">3. Onboarding training </p>
+            <p class="processItem process4">4. Book your first gig!</p>
+          </li>
+        </ul>
+          <div class="processButton">
+            <button type="button" class="btn btn-primary">Apply Now</button>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+
+
 
   <!-- Card Section1 -->
-  <div class="container-fluid content">
+  <div class="container-fluid d-flex content artistSection">
     <div class="cardBox">
-      <h2 class="sectionHeading">Testimonials</h2>
+      <div class="artistHeadBox">
+      <h2 class="display-4 artistHeading">Artist Perspectives</h2>
+    </div>
       <div class="row cardContainer">
 
         <!-- Card1 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="card" style="width: 12rem;">
+            <img src="../images/artist-pic1.png" class="card-img-top artistImg" alt="Handpan Artist One">
+            <div class="card-body artistCard">
+              <p class="card-text artistQuote">"I've been performing with Streams of Sound for the past year and have been a part of so many impactful experiences."</p>
+              <p class="artistName">Michael C.</p>
             </div>
           </div>
         </div>
         <!-- Card2 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="card" style="width: 12rem;">
+            <img src="../images/artist-pic3.png" class="card-img-top artistImg" alt="Handpan Artist Two">
+            <div class="card-body artistCard">
+              <p class="card-text artistQuote">"I love being part of SOS. Signing up was so easy and in no time I was playing my first paid gig."</p>
+              <p class="artistName">Pamela K.</p>
             </div>
           </div>
         </div>
 
         <!-- Card3 -->
         <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+          <div class="card" style="width: 12rem;">
+            <img src="../images/artist-pic2.png" class="card-img-top artistImg" alt="Handpan Artist Three">
+            <div class="card-body artistCard">
+              <p class="card-text artistQuote">"It's an honor to be part of Streams of Sound and be part of this important work."</p>
+              <p class="artistName">Joshua C.</p>
             </div>
           </div>
         </div>
@@ -160,29 +174,94 @@
   </div>
   <!-- End Cards -->
 
-  <!-- Map -->
-  <div class="container-fliid">
-    <div>
-      <h3>Locations</h3>
-      <img>
+  <!-- Card Section2 - Upcoming Opportunities -->
+    <div class="container-fluid d-flex content gigSection">
+      <div class="cardBox">
+        <div class="gigHeadBox">
+        <h2 class="display-4 gigHeading">Upcoming Opportunities</h2>
+      </div>
+        <div class="row cardContainer">
+  
+          <!-- Card1 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style="width: 12rem;">
+              <div class="card-body gigCard">
+                <p class="card-text gigDate">Thursday, June 10</p>
+                <p>@</p>
+                <p class="gigPlace">The Mayo Clinic</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card2 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style="width: 12rem;">
+              <div class="card-body gigCard">
+                <p class="card-text gigDate">Monday, June 21</p>
+                <p>@</p>
+                <p class="gigPlace">UF Proton Therapy Center</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Card3 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style="width: 12rem;">
+              <div class="card-body gigCard">
+                <p class="card-text gigDate">Friday, June 25</p>
+                <p>@</p>
+                <p class="gigPlace">Joshua C.</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- End of Card3 -->
+  
+        </div>
+        <div class="gigButton">
+          <button type="button" class="btn btn-primary">See More</button>
+        </div>
+      </div>
     </div>
-  </div>
+    <!-- End Cards -->
 
-  <!-- Donate CTA -->
-  <div class="container-fliid">
-    <div>
-      <h3>Help bring healing music to people who need it most</h3>
-      <p>Donate not to support Streams of Sound</p>
-      <button type="button" class="btn btn-primary">DONATE</button>
-    </div>
-  </div>
+    <!-- Signup Form Section -->
+    <section class="signup joinFormSection">
+      <div class="joinFormBox">
+        <div class="joinFormTxtBox">
 
-  <!-- Our Partners -->
-  <div class="col partners d-flex justify-content-center">
-    <div class="partnersContainer col-lg-8 col-md-10 col-sm-12 d-flex justify-content-center">
-      <!-- ADD PARTNER LOGOS IN ROWS HERE -->
-    </div>
-  </div>
+        <h1 class="display-4 formHeaderTxt">Join Our Team</h1>
+        </div>
+        <div class="joinForm">
+          <div class="joinFormBox"> 
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Miguel Santamaria">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Phone Number</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="000-123-4567">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Link to yout music</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sonicstillness.bandcamp.com">
+            </div>
+          </form>
+          <div class="applyButton">
+            <button type="button" class="btn btn-primary">Apply Now</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!--Footer-->
   <footer>
