@@ -61,6 +61,8 @@ body {
         border-radius: 4px;
         margin: 10px 0 !important;
         padding: 10px !important;
+        font-style: normal;
+        letter-spacing: .1em;
     }
     #Shop {
         border-color: #D7B482;
@@ -72,6 +74,8 @@ body {
         border-radius: 4px;
         margin: 10px 0 !important;
         padding: 10px !important;
+        font-style: normal;
+        letter-spacing: .1em;
     }
     #Join {
         border-color: #64CBCD;
@@ -83,6 +87,8 @@ body {
         border-radius: 4px;
         margin: 10px 0 !important;
         padding: 10px !important;
+        font-style: normal;
+        letter-spacing: .1em;
     }
     #mobileFirstLink {
         display: block !important;
@@ -97,6 +103,8 @@ body {
         font-size: 25px !important;
         font-family: 'Barlow', sans-serif;
         font-weight: 300;
+        font-style: normal;
+        letter-spacing: .1em;
     }
     #Donate {
         border-color: #2E6263;
@@ -108,6 +116,8 @@ body {
         border-radius: 4px;
         margin: 10px 0 !important;
         padding: 10px !important;
+        font-style: normal;
+        letter-spacing: .1em;
     }
     #mobileTwitter{
         color: black !important;
@@ -160,7 +170,6 @@ body {
     letter-spacing: .5rem;
 }
 #NavLogo {
-
     width: 100px;
     background-color: #64CBCD;
     margin-top: 15px !important;
@@ -194,11 +203,13 @@ body {
 }
 .NAVBUTTON {
     background-color: #4FA3A5;
-    width: 6rem;
+    width: 8rem;
     color: white !important;
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     font-size: 25px;
+    font-style: normal;
+    letter-spacing: .1em;
     padding: 16px;
     margin-left: 25px;
     margin-right: 25px;
@@ -607,9 +618,10 @@ button {
 /* _______________________________________ */
 /* <!--Donate Page--> */
 .container-fluid1{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: -50px;
+    padding-right: -50px;
     margin-top: -30px;
+    margin-left: -15px;
 }
 .donationPadding {
  padding: 2rem;
@@ -622,7 +634,7 @@ button {
 #a {
     background-image: url("../images/jumbotron.png");
     height: auto;
-    max-width: 100%; 
+    max-width: 110%; 
 }
 #b {
     height: 252px;
@@ -1039,11 +1051,14 @@ button {
 /* ______________________________________________ */
 /* Join Page */
 .joinLand {
-    margin-top: 168px;
+    margin-top: -30px;
     background-image: url(../images/teampic.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: top 20px;  */
     min-height: 90vh;
+    margin-right: -15px;
 }
 .joinHeadTxt {
     height: 100px;
@@ -1096,7 +1111,6 @@ button {
 .artistSection {
     padding-top: 50px;
     background-color: #EDCB9A;
-    height: 90vh;
     justify-content: center;
 }
 .artistHeadBox {
@@ -1116,8 +1130,11 @@ button {
     margin-top: 10px;
 }
 .artistCard {
-    height: 220px;
+    height: 160px;
     border-radius: 8px;
+}
+.cardContainer {
+
 }
 
 /* Gig Section */
