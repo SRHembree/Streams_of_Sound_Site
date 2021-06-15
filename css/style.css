@@ -5,6 +5,160 @@
 html {
     scroll-behavior: smooth; 
 }
+body {
+    padding-top: 200px;
+}
+/* Mobile CSS */
+@media only screen and (max-width: 995px) {
+    #socialMedia1 {
+        visibility: hidden;
+    }
+    #socialMedia2 {
+        visibility: hidden;
+    }
+    #socialMedia3 {
+        visibility: hidden;
+    }
+    #Envelope {
+        visibility: hidden;
+        display: none;
+    }
+    #Facebook {
+        visibility: hidden;
+        display: none;
+    }
+    #Twitter {
+        visibility: hidden;
+        display: none;
+    }
+    #searchIcon {
+        visibility: hidden;
+        display: none;
+    }
+    #NavLogo {
+        visibility: hidden;
+        display: none;
+    }
+    .nav-item {
+        background-color: white;
+        text-align: center;
+        margin-top: 0px !important;
+    }
+    .navbar-nav {
+        background-color: white;
+        margin: none;
+        align-content: center;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    #About {
+        border-color: #EDCB9A;
+        border-width: 3px;
+        background-color: white;
+        color: #EDCB9A !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+        font-style: normal;
+        letter-spacing: .1em;
+    }
+    #Shop {
+        border-color: #D7B482;
+        border-width: 3px;
+        background-color: white;
+        color: #D7B482 !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+        font-style: normal;
+        letter-spacing: .1em;
+    }
+    #Join {
+        border-color: #64CBCD;
+        border-width: 3px;
+        background-color: white;
+        color: #64CBCD !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+        font-style: normal;
+        letter-spacing: .1em;
+    }
+    #mobileFirstLink {
+        display: block !important;
+        border-color: #4FA3A5;
+        border-width: 3px;
+        background-color: white;
+        color: #4FA3A5 !important;
+        width: 100%;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+        font-size: 25px !important;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: .1em;
+    }
+    #Donate {
+        border-color: #2E6263;
+        border-width: 3px;
+        background-color: white;
+        color: #2E6263 !important;
+        width: 100%;
+        display: block;
+        border-radius: 4px;
+        margin: 10px 0 !important;
+        padding: 10px !important;
+        font-style: normal;
+        letter-spacing: .1em;
+    }
+    #mobileTwitter{
+        color: black !important;
+        display: block !important;
+        left: 150px;
+        background-color: white;
+        top: 125px;    
+        padding: 5px !important;
+    }
+    #mobileFacebook{
+        color: black !important;
+        display: block !important;
+        left: 40px;
+        background-color: white;
+        top: 125px;  
+        width: 55px;
+        padding: 5px !important;
+    }
+    #mobileNavLogo {
+        display: block !important;
+        height: 120px;
+        width: 120px;
+        margin-left: 35% !important;
+        background-color: #64CBCD;
+        padding-bottom: 5px;
+    }
+    .navbar-toggler {
+        color: black !important;
+        padding: 15px;
+        margin-top: 100px;
+        right: 40px;
+    }
+    #mobileSearch {
+        color: black !important;
+        display: block !important;
+        right: 100px;
+        background-color: #64CBCD;
+        top: 125px;    
+    }
+}
+/* <!-- Desktop --> */
 #topoftheworld {
     font-size: 1.25rem;
     font-family: 'Barlow', sans-serif;
@@ -16,7 +170,6 @@ html {
     letter-spacing: .5rem;
 }
 #NavLogo {
-
     width: 100px;
     background-color: #64CBCD;
     margin-top: 15px !important;
@@ -50,11 +203,13 @@ html {
 }
 .NAVBUTTON {
     background-color: #4FA3A5;
-    width: 6rem;
+    width: 8rem;
     color: white !important;
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     font-size: 25px;
+    font-style: normal;
+    letter-spacing: .1em;
     padding: 16px;
     margin-left: 25px;
     margin-right: 25px;
@@ -460,36 +615,33 @@ button {
 .coloredbackground {
     background-color: #2E6263;
 }
+/* _______________________________________ */
 /* <!--Donate Page--> */
 .container-fluid1{
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 175px;
+    padding-left: -50px;
+    padding-right: -50px;
+    margin-top: -30px;
+    margin-left: -15px;
 }
-
 .donationPadding {
  padding: 2rem;
 }
-
 .backgroundForDonation {
     background: url("../images/riverrocks.png");
     max-width: 100%;
     height: auto;
 }
-
 #a {
     background-image: url("../images/jumbotron.png");
     height: auto;
-    max-width: 100%;
+    max-width: 110%; 
 }
-
 #b {
     height: 252px;
     width: 447px;
     background-color: #64CBCD;
     border-radius: 4px;
 }
-
 #c {
     font-size: 64px;
     font-weight: normal;
@@ -499,7 +651,6 @@ button {
     padding-bottom: 15px;
     color: #fff;
 }
-
 #d {
     font-size: 36px;
     font-weight: 300;
@@ -508,63 +659,52 @@ button {
     text-align: center;
     color: #fff;
 }
-
 #money {
     text-align: center;
     font-size: 64px;
     font-weight: normal;
     font-family: 'Playfair Display',serif;
 }
-
 #red {
     margin-bottom: 35px;
     margin-top: 35px;
 }
-
 #blue {
     margin-bottom: 35px;
 }
-
 #yellow {
     margin-bottom: 35px;
 }
-
 #orange {
     height: auto;
     max-width: 100%;
 }
-
 #green {
     height: auto;
     max-width: 100%;
 }
-
 #purple {
     height: auto;
     max-width: 100%;
 }
-
 #horse {
     font-family: 'Barlow', sans-serif;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
 }
-
 #pig {
     font-family: 'Barlow', sans-serif;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
 }
-
 #cow {
     font-family: 'Barlow', sans-serif;
     font-size: 24px;
     font-weight: normal;
     text-align: center;
 }
-
 #questions {
     color: #000000;
     font-family: 'Playfair Display',serif;
@@ -574,12 +714,10 @@ button {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #accordionExample {
     margin-top: 35px;
     margin-bottom: 35px;
 }
-
 /* .btn, */
 .btn-link,
 .btn-block,
@@ -591,29 +729,24 @@ button {
     text-align: left;
     color: #64CBCD;
 }
-
 .btn-link:hover {
     color: #EDCB9A;
 }
-
 #headingOne {
     background-color: #fff;
     border: 1px solid #64CBCD;
     border-radius: 4px;
 }
-
 #headingTwo {
     background-color: #fff;
     border: 1px solid #64CBCD;
     border-radius: 4px;
 }
-
 #headingThree {
     background-color: #fff;
     border: 1px solid #64CBCD;
     border-radius: 4px;
 }
-
 #cba {
     color: #000000;
     font-family: 'Playfair Display',serif;
@@ -623,7 +756,6 @@ button {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #tub {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
@@ -631,7 +763,6 @@ button {
     font-size: 24px;
     text-align: center;
 }
-
 #oo {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -645,7 +776,6 @@ button {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-
 #pp {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -661,7 +791,6 @@ button {
     margin-left: 35px;
     margin-right: 35px;
 }
-
 #rr {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -675,7 +804,6 @@ button {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-
 #ss {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -691,7 +819,6 @@ button {
     margin-left: 35px;
     margin-right: 35px;
 }
-
 #ww {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -704,7 +831,6 @@ button {
     color: #000000;
     margin-bottom: 15px;
 }
-
 #zz {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -717,7 +843,6 @@ button {
     color: #000000;
     margin-bottom: 15px;
 }
-
 #ccc {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -731,7 +856,6 @@ button {
     margin-bottom: 15px;
     margin-right: 35px;
 }
-
 #ggg {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -743,7 +867,6 @@ button {
     background-color: #fff;
     color: #000000;
 }
-
 #gg {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -753,7 +876,6 @@ button {
     height: 35px;
     width: 85px;
 }
-
 #jj {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -763,7 +885,6 @@ button {
     height: 35px;
     width: 85px;
 }
-
 #mm {
     border: 1px solid #4FA3A5;
     font-family: 'Barlow', sans-serif;
@@ -773,7 +894,6 @@ button {
     height: 35px;
     width: 85px;
 }
-
 #iii {
     color: #fff;
     font-size: 18px;
@@ -786,7 +906,6 @@ button {
     width: 20%;
     text-align: center;
 }
-
 #jjj {
     height: auto;
     max-width: 100%;
@@ -794,26 +913,22 @@ button {
     margin-bottom: 35px;
     margin-top: 35px;
 }
-
 #mmm {
     height: auto;
     max-width: 100%;
     padding-top: 0px;
 }
-
 #nnn {
     padding-top: 0px;
     height: auto;
     max-width: 100%;
 }
-
 #xyz {
     height: 400px;
     width: 400px;
     border-radius: 4px;
     margin: 0px;
 }
-
 #qqq {
     color: #fff;
     font-size: 18px;
@@ -824,7 +939,6 @@ button {
     border-radius: 4px;
     height: 40px;
 }
-
 #ooo {
     color: #000000;
     font-family: 'Playfair Display',serif;
@@ -832,13 +946,11 @@ button {
     font-weight: normal;
     text-align: left;
 }
-
 #iiii {
     background-color: #2E6263;
     height: auto;
     max-width: 100%;
 }
-
 #abcd {
     color: #fff;
     font-family: 'Playfair Display', serif;
@@ -849,12 +961,10 @@ button {
     text-align: center;
     align-items: middle;
 }
-
 #sss {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #uuu {
     display: block;
     height: auto;
@@ -870,12 +980,10 @@ button {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 } 
-
 #vvv {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #xxx {
     display: block;
     height: auto;
@@ -889,12 +997,10 @@ button {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 } 
-
 #yyy {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #aaaa {
     display: block;
     height: auto;
@@ -908,12 +1014,10 @@ button {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 } 
-
 #bbbb {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #dddd {
     display: block;
     height: auto;
@@ -927,12 +1031,10 @@ button {
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
 }
-
 #eeee {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-
 #ffff {
     color: #fff;
     font-size: 18px;
@@ -946,12 +1048,17 @@ button {
     width: 200px;
 }
 
+/* ______________________________________________ */
+/* Join Page */
 .joinLand {
-    margin-top: 168px;
+    margin-top: -30px;
     background-image: url(../images/teampic.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: top 20px;  */
     min-height: 90vh;
+    margin-right: -15px;
 }
 .joinHeadTxt {
     height: 100px;
@@ -1004,7 +1111,6 @@ button {
 .artistSection {
     padding-top: 50px;
     background-color: #EDCB9A;
-    height: 90vh;
     justify-content: center;
 }
 .artistHeadBox {
@@ -1024,8 +1130,11 @@ button {
     margin-top: 10px;
 }
 .artistCard {
-    height: 220px;
+    height: 160px;
     border-radius: 8px;
+}
+.cardContainer {
+
 }
 
 /* Gig Section */
