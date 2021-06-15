@@ -623,10 +623,10 @@ button {
 /* _______________________________________ */
 /* <!--Donate Page--> */
 .container-fluid1{
-    padding-left: -50px;
-    padding-right: -50px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: -30px;
-    margin-left: -15px;
+    /* margin-left: -15px; */
 }
 .donationPadding {
  padding: 2rem;
@@ -639,7 +639,9 @@ button {
 #a {
     background-image: url("../images/jumbotron.png");
     height: auto;
-    max-width: 110%; 
+    max-width: 130%; 
+    margin-right: -30px;
+    margin-left: -30px;
 }
 #b {
     height: 252px;
@@ -673,6 +675,9 @@ button {
 #red {
     margin-bottom: 35px;
     margin-top: 35px;
+}
+#pink {
+    margin-bottom: 35px;
 }
 #blue {
     margin-bottom: 35px;
@@ -729,7 +734,7 @@ button {
 .text-left,
 .collapsed {
     font-family: 'Barlow', sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: normal;
     text-align: left;
     color: #64CBCD;
@@ -761,6 +766,10 @@ button {
     padding-bottom: 15px;
     padding-top: 15px;
 }
+.donationForm {
+    /* margin-left: 25% !important; */
+    justify-content: center;
+}
 #tub {
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
@@ -775,7 +784,7 @@ button {
     font-weight: 300;
     text-align: center;
     height: auto;
-    width: 5%;
+    width: 100%;
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
@@ -788,13 +797,11 @@ button {
     font-weight: 300;
     text-align: center;
     height: auto;
-    width: 5%;
+    width: 100%;
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    margin-left: 35px;
-    margin-right: 35px;
 }
 #rr {
     border: 1px solid #4FA3A5;
@@ -803,7 +810,7 @@ button {
     font-weight: 300;
     text-align: center;
     height: auto;
-    width: 5%;
+    width: 100%;
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
@@ -816,13 +823,11 @@ button {
     font-weight: 300;
     text-align: center;
     height: auto;
-    width: 5%;
+    width: 100%;
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    margin-left: 35px;
-    margin-right: 35px;
 }
 #ww {
     border: 1px solid #4FA3A5;
@@ -831,10 +836,14 @@ button {
     font-weight: 300;
     text-align: left;
     height: auto;
-    width: 45%;
+    width: 100%;
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
+}
+.buttonForm:hover {
+    background-color: #2E6263 !important;
+    color: white !important;
 }
 #zz {
     border: 1px solid #4FA3A5;
@@ -843,7 +852,7 @@ button {
     font-weight: 300;
     text-align: left;
     height: auto;
-    width: 45%;
+    width: 100%;
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
@@ -855,7 +864,7 @@ button {
     font-weight: 300;
     text-align: left;
     height: auto;
-    width: 35%;
+    width: 100%;
     background-color: #fff;
     color: #000000;
     margin-bottom: 15px;
@@ -868,7 +877,7 @@ button {
     font-weight: 300;
     text-align: left;
     height: auto;
-    width: 35%;
+    width: 100%;
     background-color: #fff;
     color: #000000;
 }
@@ -908,31 +917,32 @@ button {
     border: 1px solid #4FA3A5;
     border-radius: 4px;
     height: auto;
-    width: 20%;
+    width: 100%;
     text-align: center;
 }
-#jjj {
+#iii:hover {
+    background-color: #2E6263;
+    color: white;
+}
+.jjj {
     height: auto;
     max-width: 100%;
     padding-top: 0px;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
     margin-top: 35px;
+    padding-bottom: -20px;
 }
 #mmm {
     height: auto;
     max-width: 100%;
     padding-top: 0px;
-}
-#nnn {
-    padding-top: 0px;
-    height: auto;
-    max-width: 100%;
+    margin-right: -30px;
 }
 #xyz {
-    height: 400px;
-    width: 400px;
+    height: 70%;
+    max-height: 250px;
+    width: 100%;
     border-radius: 4px;
-    margin: 0px;
 }
 #qqq {
     color: #fff;
@@ -942,19 +952,28 @@ button {
     background-color: #4FA3A5;
     border: 1px solid #4FA3A5;
     border-radius: 4px;
-    height: 40px;
+    width: 100%;
+}
+#qqq:hover {
+    background-color: #2E6263;
+    color: white;
 }
 #ooo {
     color: #000000;
     font-family: 'Playfair+Display',serif;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: normal;
     text-align: left;
 }
+.cardCutoff {
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
 #iiii {
     background-color: #2E6263;
-    height: auto;
+    /* height: auto; */
     max-width: 100%;
+    padding-top: 30px !important;
 }
 #abcd {
     color: #fff;
@@ -964,30 +983,30 @@ button {
     letter-spacing: 5%;
     line-height: auto;
     text-align: center;
-    align-items: middle;
 }
-#sss {
-    padding-bottom: 15px;
-    padding-top: 15px;
+#uuu::placeholder {
+    color: white;
+}
+.namesForm {
+    margin-top: 20px;
 }
 #uuu {
     display: block;
     height: auto;
-    max-width: 50%;
+    max-width: 75%;
     font-family: 'Barlow', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 1.5;
-    color: #fff;
     background-color: #2E6263;
     background-clip: padding-box;
     border: 1px solid #fff;
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+    margin-left: 15%;
 } 
-#vvv {
-    padding-bottom: 15px;
-    padding-top: 15px;
+#xxx::placeholder {
+    color: white;
 }
 #xxx {
     display: block;
@@ -995,16 +1014,21 @@ button {
     max-width: 75%;
     font-size: 18px;
     line-height: 1.5;
-    color: #fff;
+    font-family: 'Barlow', sans-serif;
     background-color: #2E6263;
     background-clip: padding-box;
     border: 1px solid #fff;
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+    margin-left: 0%;
 } 
 #yyy {
     padding-bottom: 15px;
     padding-top: 15px;
+    /* margin-left: 10px; */
+}
+#aaaa::placeholder {
+    color: white;
 }
 #aaaa {
     display: block;
@@ -1012,16 +1036,21 @@ button {
     max-width: 75%;
     font-size: 18px;
     line-height: 1.5;
-    color: #fff;
+    font-family: 'Barlow', sans-serif;
     background-color: #2E6263;
     background-clip: padding-box;
     border: 1px solid #fff;
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+    margin-left: 7%;
 } 
 #bbbb {
     padding-bottom: 15px;
     padding-top: 15px;
+    /* margin-left: 10px; */
+}
+#dddd::placeholder {
+    color: white;
 }
 #dddd {
     display: block;
@@ -1029,16 +1058,17 @@ button {
     max-width: 75%;
     font-size: 18px;
     line-height: 1.5;
-    color: #fff;
+    font-family: 'Barlow', sans-serif;
     background-color: #2E6263;
     background-clip: padding-box;
     border: 1px solid #fff;
     border-radius: 4px;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+    margin-left: 7%;
 }
 #eeee {
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 #ffff {
     color: #fff;
@@ -1050,9 +1080,13 @@ button {
     border-radius: 4px;
     text-align: center;
     height: auto;
-    width: 200px;
+    width: 95%;
+    margin-left: 10px;
 }
-
+#ffff:hover {
+    background-color: #EDCB9A;
+    color: black;
+}
 /* ______________________________________________ */
 /* Join Page */
 .joinLand {
