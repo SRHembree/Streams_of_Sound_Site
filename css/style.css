@@ -359,6 +359,7 @@ button {
 }
 .submitButton {
     background-color: #EDCB9A;
+    border-color: #D7B482;
     width: 28%;
     margin-left: 6px;
 }
