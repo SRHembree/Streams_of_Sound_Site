@@ -316,7 +316,6 @@ button {
 }
 #navIconFooter {
     display: block !important;
-
     width: 120px;
     margin-left: 35% !important;
     padding-bottom: 5px;
@@ -517,10 +516,10 @@ button {
 }
 /* <!-- Content for Homepage --> */
 .background {
-    background-image: url(../images/dalmation2.png);
+    background-image: url(../images/background-stones.png);
     object-fit: cover;
     flex-shrink: 0;
-    min-width: 100%;
+    min-width: 50%;
 }
 .cardtitlehome {
     font-family: 'Playfair+Display', serif;
