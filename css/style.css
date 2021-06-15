@@ -1119,6 +1119,7 @@ button {
     justify-content: center;
     min-height: 90vh;
 
+
  }
  .artistHeadBox {
     display:flex;
@@ -1148,10 +1149,11 @@ button {
  }
  /* Gig Section */
  .gigSection {
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: white;
-    height: 90vh;
+    min-height: 90vh;
     justify-content: center;
+    padding-bottom: 100px;
  }
  .gigHeadBox {
     display:flex;
@@ -1177,6 +1179,11 @@ button {
     display: flex;
     justify-content: center;
  }
+ .eventCard {
+    margin: auto;
+    padding-bottom: 20px;
+    width: 60%;
+ }
   
  /* Join Form Section */
   
@@ -1184,6 +1191,7 @@ button {
     background-color: #64CBCD;
     height: 90vh;
     padding-top: 100px;
+    padding-bottom: 50px;
  }
  .formHeaderTxt {
     margin-bottom: 25px;
