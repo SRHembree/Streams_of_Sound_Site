@@ -122,40 +122,44 @@ body {
     #mobileTwitter{
         color: black !important;
         display: block !important;
-        left: 150px;
+        left: 120px;
         background-color: white;
         top: 125px;    
         padding: 5px !important;
+        width: 45px;
     }
     #mobileFacebook{
         color: black !important;
         display: block !important;
-        left: 40px;
+        left: 35px;
         background-color: white;
         top: 125px;  
-        width: 55px;
+        width: 45px;
         padding: 5px !important;
     }
     #mobileNavLogo {
         display: block !important;
         height: 120px;
         width: 120px;
-        margin-left: 35% !important;
+        margin-left: 15% !important;
         background-color: #64CBCD;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
     .navbar-toggler {
         color: black !important;
         padding: 15px;
         margin-top: 100px;
         right: 40px;
+        margin-right: 15px;
+        border-color: white;
+        border-width: 2px;
     }
     #mobileSearch {
         color: black !important;
         display: block !important;
-        right: 100px;
+        right: 120px;
         background-color: #64CBCD;
-        top: 125px;    
+        top: 130px;    
     }
 }
 /* <!-- Desktop --> */
@@ -401,7 +405,7 @@ button {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 48px !important;
+    font-size: 35px !important;
     /* font-size: 4vw; */
     text-align: center;
     margin-bottom: .25vh;
@@ -1132,9 +1136,6 @@ button {
 .artistCard {
     height: 160px;
     border-radius: 8px;
-}
-.cardContainer {
-
 }
 
 /* Gig Section */
