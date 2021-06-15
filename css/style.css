@@ -1071,14 +1071,8 @@ button {
     display:flex;
     justify-content: center;
     align-items: center;
-<<<<<<< Updated upstream
-    font-family: 
-}
-.joinTitle{
-=======
  }
  .joinTitle{
->>>>>>> Stashed changes
     color: white;
  }
   
@@ -1146,12 +1140,6 @@ button {
  .artistCard {
     height: 160px;
     border-radius: 8px;
-<<<<<<< Updated upstream
-}
-
-/* Gig Section */
-.gigSection {
-=======
  }
  .artistCardContainer {
     width: 300px;
@@ -1160,7 +1148,6 @@ button {
  }
  /* Gig Section */
  .gigSection {
->>>>>>> Stashed changes
     padding-top: 100px;
     background-color: white;
     height: 90vh;
