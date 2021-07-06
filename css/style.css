@@ -8,7 +8,7 @@ html {
 body {
     padding-top: 200px;
 }
-/* Mobile CSS */
+/* Mobile Nav CSS */
 @media only screen and (max-width: 995px) {
     #socialMedia1 {
         visibility: hidden;
